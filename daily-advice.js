@@ -26,7 +26,7 @@ if (hours >= 22 && hours < 5){
 
 if (month >=6 && month <= 9){
 	season2 = 'Soak up that sun!';
-	if (hours >=14 &&)
+	if (hours >=14) {
 		season = 'It gets hot in the afternoon - don\'t forget to hydrate!';
 	} else {
 		season = 'Enjoy your summer, but don\'t forget sunscreen!';
@@ -47,9 +47,9 @@ if (month >=6 && month <= 9){
 	}
 } else if (month >= 12 && month <=3){
 	season2 = 'Stay warm!';
-	if (hours >= 8 && hours <= 2 ) {
+	if (hours >= 8 && hours <= 2){
 		season = 'Don\'t forget to let your taps drip before you sleep!';
-	} else (month >= 12 && month <=3) {
+	} else {
 		season = 'Bundle up before you head out!';
 	}
 }
